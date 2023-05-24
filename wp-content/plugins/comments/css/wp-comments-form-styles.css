@@ -1,0 +1,38 @@
+/* wp-comments-form-styles.css */
+
+#wp-comments-form-form {
+    box-sizing: border-box;
+    border: 1px solid #c3c4c7;
+    box-shadow: 0 1px 1px rgba(0,0,0,.04);
+    padding: 20px !important;
+    max-width: 100%;
+    width: 570px;
+}
+
+#wp-comments-form-form input[type="text"],
+#wp-comments-form-form textarea {
+    box-sizing: border-box;
+    width: 100%;
+    max-width: 100%;
+    display: block;
+    padding: 10px;
+    border: 1px solid lightgray;
+    margin-bottom: 15px;
+    border-radius: 5px;
+}
+
+#wp-comments-form-form input[type="submit"] {
+    background-color: #337ab7;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+#wp-comments-form-form input[type="submit"]:hover {
+    background-color: #23527c;
+}
+
+.text-success {
+    color: #345c00;
+}
